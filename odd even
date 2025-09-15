@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even or odd</title>
+</head>
+<body>
+
+    <h1>even or odd</h1>
+    <input type="number" id="num" placeholder="enter a number">
+    <button onclick="checkoddeven()">check</button>
+    <p id="result"></p>
+
+    <script>
+        function checkoddeven(){
+            let number=document.getElementById("num").value;
+            let result="";
+            
+            if(number%2==0)
+        {
+            result=result+" even"
+        }
+            else
+        {
+            result=result+" odd"
+        }
+
+        if(number=="")
+        {
+            result="please enter a valid number"
+        }
+        document.getElementById("result").innerText=result;
+
+        }
+    </script>
+    
+</body>
+</html>
