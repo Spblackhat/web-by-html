@@ -1,0 +1,55 @@
+<html>
+    <title>
+web page
+    </title>
+    <style>
+        .h2{
+            text-align: center;
+            background-color: grey;
+            margin: 0%;
+            padding: 0%;
+            
+        }
+        .c1{
+            display: flex;
+            justify-content: center;
+
+        }
+        .main{
+            text-align: center;
+
+        }
+        .mn2{
+            text-align: center;
+            background-color: thistle;
+        }
+
+    </style>
+    <body>
+        <div class="header">
+            <h2 class="h2">welcome to web page </h2> 
+            <div class="c1">
+                <li>home</li>
+                <li>About</li>
+                <li>Contact</li>
+            
+         </div>      
+        </div>
+    <div class="main">
+        <h1 class="main">home </h1>
+        <p>this is simple home page </p>
+        <div>
+            <h1 class="main">about</h1>
+        <p>About home page</p>
+        </div>
+        <div>
+            <h1 class="main">contact</h1>
+            <p>contact home page </p>
+        </div>
+    </div>
+<div class="footer">
+    <div><h3 class="mn2">@2025 wweb page</h3> </div>
+
+</div>    
+    </body>
+</html>
